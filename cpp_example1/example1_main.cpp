@@ -15,5 +15,6 @@ int main(const int argc, const char* argv[])
     
     printf("%s started\n", program_name.c_str());
 
+    printf("Done\n");
     return result;
 }
