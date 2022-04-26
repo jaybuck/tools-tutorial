@@ -1,7 +1,7 @@
 C := clang
 CFLAGS := -O2
 CXX := g++
-CXXFLAGS := -O2 -std=c++11 -Wall
+CXXFLAGS := -O2 -std=c++17 -Wall
 
 CSRC := $(wildcard *.c)
 CBIN := $(CSRC:%.c=%)
